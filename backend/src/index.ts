@@ -16,27 +16,27 @@ const db = await open({
 });
 
 await db.exec(/*SQL*/ `
-    CREATE TABLE IF NOT EXISTS users (
+    CREATE TABLE IF NOT EXISTS comments (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        name TEXT,
-        last_name TEXT,
-        username TEXT UNIQUE,
-        age INTEGER
+        post_id INTEGER,
+        user_id INTEGER,
+        body TEXT,
+        created_at TEXT
     )
 `);
 
-// const usersList = JSON.parse(
-// 	await fs.readFile(path.join(__dirname, './mock/users.json'), {
+// const commentsList = JSON.parse(
+// 	await fs.readFile(path.join(__dirname, './mock/comments.json'), {
 // 		encoding: 'utf8',
 // 	}),
 // );
 
 // const stmt = await db.prepare(
-// 	'INSERT INTO users (name, last_name, username, age) VALUES (?,?,?,?)',
+// 	'INSERT INTO comments (post_id, user_id, body, created_at) VALUES (?,?,?,?)',
 // );
 
-// for (const user of usersList) {
-// 	stmt.run(user.firstName, user.lastName, user.username, user.age);
+// for (const comment of commentsList) {
+// 	stmt.run(comment.postId, comment.userId, comment.body, comment.createdAt);
 // }
 
 // await stmt.finalize();
@@ -52,6 +52,16 @@ app.get('/', (c) => {
 app.get('/api/hello', async (c) => {
 	const users = await db.all('SELECT * FROM users');
 	return c.json(users);
+});
+
+app.get('/api/posts', async (c) => {
+	const posts = await db.all('SELECT * FROM posts');
+	return c.json(posts);
+});
+
+app.get('/api/comments', async (c) => {
+	const comments = await db.all('SELECT * FROM comments');
+	return c.json(comments);
 });
 
 const port = 3000;

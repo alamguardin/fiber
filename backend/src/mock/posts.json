@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"userId": 1,
+		"body": "Hoy ha sido un gran día, aprendí mucho sobre programación.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 2,
+		"userId": 2,
+		"body": "La lectura nos lleva a mundos inimaginables.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 3,
+		"userId": 3,
+		"body": "El ejercicio diario es clave para una vida saludable.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 4,
+		"userId": 4,
+		"body": "Hoy cociné una nueva receta y quedó deliciosa!",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 5,
+		"userId": 5,
+		"body": "La música puede cambiar nuestro estado de ánimo en segundos.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 6,
+		"userId": 6,
+		"body": "Siempre hay algo nuevo que aprender cada día.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 7,
+		"userId": 7,
+		"body": "Hoy tuve una conversación inspiradora con un amigo.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 8,
+		"userId": 8,
+		"body": "El café de la mañana siempre me da energía para empezar el día.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 9,
+		"userId": 9,
+		"body": "Nunca es tarde para empezar algo nuevo.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 10,
+		"userId": 10,
+		"body": "Me encanta viajar y descubrir nuevas culturas.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 11,
+		"userId": 1,
+		"body": "Hoy aprendí a tocar una nueva canción en la guitarra.",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 12,
+		"userId": 2,
+		"body": "El arte es una de las formas más bellas de expresión humana.",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 13,
+		"userId": 3,
+		"body": "La meditación me ha ayudado a encontrar paz interior.",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 14,
+		"userId": 4,
+		"body": "Disfrutar de la naturaleza es una de mis actividades favoritas.",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 15,
+		"userId": 5,
+		"body": "Hoy experimenté con un nuevo platillo y quedó increíble.",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 16,
+		"userId": 6,
+		"body": "Las matemáticas pueden ser divertidas si se enseñan bien.",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 17,
+		"userId": 7,
+		"body": "Ver una buena película siempre es un gran plan.",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 18,
+		"userId": 8,
+		"body": "Hoy logré completar mi primer maratón de 10 km!",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 19,
+		"userId": 9,
+		"body": "Aprender nuevos idiomas nos abre muchas puertas.",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 20,
+		"userId": 10,
+		"body": "Pasar tiempo con la familia es lo más valioso que tenemos.",
+		"createdAt": "2025-02-15"
+	}
+]

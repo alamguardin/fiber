@@ -1,0 +1,142 @@
+[
+	{
+		"id": 1,
+		"postId": 1,
+		"userId": 2,
+		"body": "¡Eso suena genial! ¿Qué lenguaje de programación estás aprendiendo?",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 2,
+		"postId": 2,
+		"userId": 3,
+		"body": "Totalmente de acuerdo, leer es una gran forma de viajar sin moverse de casa.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 3,
+		"postId": 3,
+		"userId": 4,
+		"body": "El ejercicio es clave, pero a veces cuesta mantener la constancia. ¿Algún consejo?",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 4,
+		"postId": 4,
+		"userId": 5,
+		"body": "¡Me encanta cocinar! ¿Podrías compartir la receta?",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 5,
+		"postId": 5,
+		"userId": 6,
+		"body": "La música realmente puede mejorar nuestro estado de ánimo. ¿Qué género prefieres?",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 6,
+		"postId": 6,
+		"userId": 7,
+		"body": "Siempre es bueno aprender algo nuevo. ¿Qué aprendiste hoy?",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 7,
+		"postId": 7,
+		"userId": 8,
+		"body": "Las conversaciones inspiradoras nos ayudan a crecer. ¿De qué hablaron?",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 8,
+		"postId": 8,
+		"userId": 9,
+		"body": "El café de la mañana es esencial. ¿Tienes alguna marca favorita?",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 9,
+		"postId": 9,
+		"userId": 10,
+		"body": "Empezar algo nuevo siempre da miedo, pero es muy gratificante.",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 10,
+		"postId": 10,
+		"userId": 1,
+		"body": "Viajar es increíble. ¿Cuál ha sido tu destino favorito?",
+		"createdAt": "2025-02-14"
+	},
+	{
+		"id": 11,
+		"postId": 11,
+		"userId": 2,
+		"body": "Tocar la guitarra es un arte. ¿Cuál fue la canción que aprendiste?",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 12,
+		"postId": 12,
+		"userId": 3,
+		"body": "El arte nos ayuda a expresar lo que sentimos. ¿Qué tipo de arte prefieres?",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 13,
+		"postId": 13,
+		"userId": 4,
+		"body": "La meditación es increíble para la mente. ¿Cuánto tiempo meditas al día?",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 14,
+		"postId": 14,
+		"userId": 5,
+		"body": "La naturaleza nos da paz. ¿Cuál es tu lugar favorito para desconectar?",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 15,
+		"postId": 15,
+		"userId": 6,
+		"body": "Experimentar con nuevas recetas siempre es emocionante. ¿Qué ingredientes usaste?",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 16,
+		"postId": 16,
+		"userId": 7,
+		"body": "Las matemáticas pueden ser difíciles, pero también fascinantes. ¿Cuál es tu tema favorito?",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 17,
+		"postId": 17,
+		"userId": 8,
+		"body": "Siempre es un buen plan ver películas. ¿Cuál viste recientemente?",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 18,
+		"postId": 18,
+		"userId": 9,
+		"body": "Completar un maratón es un gran logro. ¡Felicidades! ¿Cómo fue la experiencia?",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 19,
+		"postId": 19,
+		"userId": 10,
+		"body": "Aprender idiomas es increíble. ¿Cuál es el próximo que quieres dominar?",
+		"createdAt": "2025-02-15"
+	},
+	{
+		"id": 20,
+		"postId": 20,
+		"userId": 1,
+		"body": "Pasar tiempo con la familia no tiene precio. ¿Tienen alguna tradición especial?",
+		"createdAt": "2025-02-15"
+	}
+]
