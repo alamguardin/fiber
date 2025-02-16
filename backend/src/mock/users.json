@@ -1,0 +1,72 @@
+[
+	{
+		"id": 1,
+		"firstName": "Carlos",
+		"lastName": "González",
+		"username": "carlosg1",
+		"age": 25
+	},
+	{
+		"id": 2,
+		"firstName": "María",
+		"lastName": "Fernández",
+		"username": "mariaf2",
+		"age": 30
+	},
+	{
+		"id": 3,
+		"firstName": "Luis",
+		"lastName": "Ramírez",
+		"username": "luisr3",
+		"age": 22
+	},
+	{
+		"id": 4,
+		"firstName": "Ana",
+		"lastName": "López",
+		"username": "anal4",
+		"age": 28
+	},
+	{
+		"id": 5,
+		"firstName": "Pedro",
+		"lastName": "Martínez",
+		"username": "pedrom5",
+		"age": 35
+	},
+	{
+		"id": 6,
+		"firstName": "Sofía",
+		"lastName": "Hernández",
+		"username": "sofiah6",
+		"age": 27
+	},
+	{
+		"id": 7,
+		"firstName": "Javier",
+		"lastName": "Díaz",
+		"username": "javierd7",
+		"age": 24
+	},
+	{
+		"id": 8,
+		"firstName": "Elena",
+		"lastName": "Torres",
+		"username": "elenat8",
+		"age": 29
+	},
+	{
+		"id": 9,
+		"firstName": "Miguel",
+		"lastName": "Sánchez",
+		"username": "miguels9",
+		"age": 26
+	},
+	{
+		"id": 10,
+		"firstName": "Laura",
+		"lastName": "Pérez",
+		"username": "laurap10",
+		"age": 31
+	}
+]

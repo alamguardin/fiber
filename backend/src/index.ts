@@ -4,6 +4,8 @@ import { open } from 'sqlite';
 import sqlite3 from 'sqlite3';
 import path, { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import * as fs from 'node:fs/promises';
+import { json } from 'node:stream/consumers';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -23,20 +25,18 @@ await db.exec(/*SQL*/ `
     )
 `);
 
-// const listUsers = [
-// 	{ name: 'Jhon', lastName: 'Doe' },
-// 	{ name: 'Jay', lastName: 'Stevents' },
-// 	{ name: 'Carl', lastName: 'Madison' },
-// 	{ name: 'Ferd', lastName: 'MCdonald' },
-// 	{ name: 'Anya', lastName: 'Taylor' },
-// ];
-
-// const stmt = await db.prepare(
-// 	'INSERT INTO users (name, last_name) VALUES (?,?)',
+// const usersList = JSON.parse(
+// 	await fs.readFile(path.join(__dirname, './mock/users.json'), {
+// 		encoding: 'utf8',
+// 	}),
 // );
 
-// for (const user of listUsers) {
-// 	stmt.run(user.name, user.lastName);
+// const stmt = await db.prepare(
+// 	'INSERT INTO users (name, last_name, username, age) VALUES (?,?,?,?)',
+// );
+
+// for (const user of usersList) {
+// 	stmt.run(user.firstName, user.lastName, user.username, user.age);
 // }
 
 // await stmt.finalize();
