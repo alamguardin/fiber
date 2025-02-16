@@ -46,10 +46,14 @@ await db.exec(/*SQL*/ `
 const app = new Hono();
 
 app.get('/', (c) => {
-	return c.text('Hello Hono!');
+	return c.json({
+		users: 'http://localhost:3000/api/users',
+		posts: 'http://localhost:3000/api/posts',
+		comments: 'http://localhost:3000/api/comments',
+	});
 });
 
-app.get('/api/hello', async (c) => {
+app.get('/api/users', async (c) => {
 	const users = await db.all('SELECT * FROM users');
 	return c.json(users);
 });
